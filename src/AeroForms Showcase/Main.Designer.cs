@@ -197,10 +197,10 @@ namespace WindowsFormsAeroShowcase {
             // 
             themedLabel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             themedLabel1.Font = new System.Drawing.Font("Segoe UI Light", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            themedLabel1.Location = new System.Drawing.Point(0, 0);
+            themedLabel1.Location = new System.Drawing.Point(64, 0);
             themedLabel1.Name = "themedLabel1";
             themedLabel1.Padding = new Padding(9, 0, 0, 0);
-            themedLabel1.Size = new System.Drawing.Size(666, 57);
+            themedLabel1.Size = new System.Drawing.Size(602, 57);
             themedLabel1.TabIndex = 25;
             themedLabel1.Text = "AeroForms";
             themedLabel1.TextAlignVertical = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;

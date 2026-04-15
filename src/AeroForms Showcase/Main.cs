@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AeroForms_Showcase.Properties;
 using FireBlade.AeroForms;
 
 namespace WindowsFormsAeroShowcase {
@@ -73,6 +74,13 @@ namespace WindowsFormsAeroShowcase {
                 "Form is NOT on currently active virtual desktop";
 
             labelVDesktopId.Text = VirtualDesktopManager.GetWindowDesktopId(this).Id.ToString();
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            base.OnPaint(e);
+
+            e.Graphics.DrawImage(Resources.AeroForms64, 0f, 0f, 56f, 56f);
         }
     }
 
