@@ -71,7 +71,7 @@ namespace WindowsFormsAeroShowcase {
                 DrawEllipse(e.Graphics);
             }
 
-            e.Graphics.DrawString("WindowsFormsAero", Font, new SolidBrush(GetColor()), GetPos(), GetPos());
+            e.Graphics.DrawString("AeroForms", Font, new SolidBrush(GetColor()), GetPos(), GetPos());
 
             base.OnPaint(e);
         }
