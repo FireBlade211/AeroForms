@@ -8,13 +8,13 @@
 Many controls—such as buttons, command buttons, and textboxes—support the functional and stylistic features introduced with “Aero”.
 For instance shield icons, cue banners, and so on.
 
-## Download
-The NuGet package isn't currently available.
+![Screenshot of the AeroForms Showcase app](readme-screenshot.png)
 
-<!-- [![NuGet](https://img.shields.io/nuget/v/Windows-Forms-Aero.svg)](https://www.nuget.org/packages/Windows-Forms-Aero)
+## Download
+[![NuGet](https://img.shields.io/nuget/v/FireBlade.AeroForms.svg)](https://www.nuget.org/packages/FireBlade.AeroForms)
 
 Get the latest version through NuGet:
 
 ```
-Install-Package Windows-Forms-Aero
-``` -->
+Install-Package FireBlade.AeroForms
+```
