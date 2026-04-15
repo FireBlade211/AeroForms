@@ -137,12 +137,6 @@ namespace WindowsFormsAeroShowcase {
             commandLink2 = new FireBlade.AeroForms.CommandLink();
             commandLink3 = new FireBlade.AeroForms.CommandLink();
             commandLink4 = new FireBlade.AeroForms.CommandLink();
-            tabPage2 = new TabPage();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            progressBar1 = new FireBlade.AeroForms.ProgressBar();
-            progressBar2 = new FireBlade.AeroForms.ProgressBar();
-            progressBar3 = new FireBlade.AeroForms.ProgressBar();
-            progressBar4 = new FireBlade.AeroForms.ProgressBar();
             tabPage4 = new TabPage();
             flowLayoutPanel3 = new FlowLayoutPanel();
             textBox1 = new FireBlade.AeroForms.TextBox();
@@ -164,8 +158,6 @@ namespace WindowsFormsAeroShowcase {
             tabPage1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             contextMenu1.SuspendLayout();
-            tabPage2.SuspendLayout();
-            flowLayoutPanel2.SuspendLayout();
             tabPage4.SuspendLayout();
             flowLayoutPanel3.SuspendLayout();
             tabPage5.SuspendLayout();
@@ -217,7 +209,6 @@ namespace WindowsFormsAeroShowcase {
             // 
             tabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             tabControl1.Controls.Add(tabPage1);
-            tabControl1.Controls.Add(tabPage2);
             tabControl1.Controls.Add(tabPage4);
             tabControl1.Controls.Add(tabPage5);
             tabControl1.Controls.Add(tabPage6);
@@ -235,7 +226,7 @@ namespace WindowsFormsAeroShowcase {
             tabPage1.ForeColor = System.Drawing.SystemColors.ControlText;
             tabPage1.Location = new System.Drawing.Point(4, 24);
             tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3, 3, 3, 3);
+            tabPage1.Padding = new Padding(3);
             tabPage1.Size = new System.Drawing.Size(658, 373);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Buttons";
@@ -361,70 +352,12 @@ namespace WindowsFormsAeroShowcase {
             commandLink4.UseVisualStyleBackColor = true;
             commandLink4.Click += commandLink4_Click;
             // 
-            // tabPage2
-            // 
-            tabPage2.Controls.Add(flowLayoutPanel2);
-            tabPage2.Location = new System.Drawing.Point(4, 24);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3, 3, 3, 3);
-            tabPage2.Size = new System.Drawing.Size(658, 373);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "Progress bars";
-            tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel2
-            // 
-            flowLayoutPanel2.Controls.Add(progressBar1);
-            flowLayoutPanel2.Controls.Add(progressBar2);
-            flowLayoutPanel2.Controls.Add(progressBar3);
-            flowLayoutPanel2.Controls.Add(progressBar4);
-            flowLayoutPanel2.Dock = DockStyle.Fill;
-            flowLayoutPanel2.FlowDirection = FlowDirection.TopDown;
-            flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new System.Drawing.Size(652, 367);
-            flowLayoutPanel2.TabIndex = 0;
-            // 
-            // progressBar1
-            // 
-            progressBar1.Location = new System.Drawing.Point(3, 3);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new System.Drawing.Size(394, 30);
-            progressBar1.TabIndex = 0;
-            progressBar1.Value = 70;
-            // 
-            // progressBar2
-            // 
-            progressBar2.Location = new System.Drawing.Point(3, 39);
-            progressBar2.Name = "progressBar2";
-            progressBar2.Size = new System.Drawing.Size(394, 30);
-            progressBar2.State = FireBlade.AeroForms.ProgressBarState.Paused;
-            progressBar2.TabIndex = 1;
-            progressBar2.Value = 50;
-            // 
-            // progressBar3
-            // 
-            progressBar3.Location = new System.Drawing.Point(3, 75);
-            progressBar3.Name = "progressBar3";
-            progressBar3.Size = new System.Drawing.Size(394, 30);
-            progressBar3.State = FireBlade.AeroForms.ProgressBarState.Error;
-            progressBar3.TabIndex = 2;
-            progressBar3.Value = 30;
-            // 
-            // progressBar4
-            // 
-            progressBar4.Location = new System.Drawing.Point(3, 111);
-            progressBar4.Name = "progressBar4";
-            progressBar4.Size = new System.Drawing.Size(394, 30);
-            progressBar4.Style = ProgressBarStyle.Marquee;
-            progressBar4.TabIndex = 3;
-            // 
             // tabPage4
             // 
             tabPage4.Controls.Add(flowLayoutPanel3);
             tabPage4.Location = new System.Drawing.Point(4, 24);
             tabPage4.Name = "tabPage4";
-            tabPage4.Padding = new Padding(3, 3, 3, 3);
+            tabPage4.Padding = new Padding(3);
             tabPage4.Size = new System.Drawing.Size(658, 373);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Data controls";
@@ -774,7 +707,7 @@ namespace WindowsFormsAeroShowcase {
             tabPage5.Controls.Add(thumbnailViewer1);
             tabPage5.Location = new System.Drawing.Point(4, 24);
             tabPage5.Name = "tabPage5";
-            tabPage5.Padding = new Padding(3, 3, 3, 3);
+            tabPage5.Padding = new Padding(3);
             tabPage5.Size = new System.Drawing.Size(658, 373);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "DWM";
@@ -796,9 +729,9 @@ namespace WindowsFormsAeroShowcase {
             tabPage6.Controls.Add(labelVDesktopCurrent);
             tabPage6.Controls.Add(buttonVDesktop);
             tabPage6.Location = new System.Drawing.Point(4, 24);
-            tabPage6.Margin = new Padding(2, 2, 2, 2);
+            tabPage6.Margin = new Padding(2);
             tabPage6.Name = "tabPage6";
-            tabPage6.Padding = new Padding(2, 2, 2, 2);
+            tabPage6.Padding = new Padding(2);
             tabPage6.Size = new System.Drawing.Size(658, 373);
             tabPage6.TabIndex = 5;
             tabPage6.Text = "Virtual desktops";
@@ -825,7 +758,7 @@ namespace WindowsFormsAeroShowcase {
             // buttonVDesktop
             // 
             buttonVDesktop.Location = new System.Drawing.Point(7, 7);
-            buttonVDesktop.Margin = new Padding(2, 2, 2, 2);
+            buttonVDesktop.Margin = new Padding(2);
             buttonVDesktop.Name = "buttonVDesktop";
             buttonVDesktop.Size = new System.Drawing.Size(149, 30);
             buttonVDesktop.TabIndex = 0;
@@ -842,7 +775,7 @@ namespace WindowsFormsAeroShowcase {
             Controls.Add(themedLabel2);
             Controls.Add(themedLabel1);
             HideTitle = true;
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             MaximizeBox = false;
             MinimumSize = new System.Drawing.Size(653, 432);
             Name = "Main";
@@ -852,8 +785,6 @@ namespace WindowsFormsAeroShowcase {
             tabPage1.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             contextMenu1.ResumeLayout(false);
-            tabPage2.ResumeLayout(false);
-            flowLayoutPanel2.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
             flowLayoutPanel3.ResumeLayout(false);
             flowLayoutPanel3.PerformLayout();
@@ -870,16 +801,10 @@ namespace WindowsFormsAeroShowcase {
 		private FireBlade.AeroForms.ThemeLabel themedLabel2;
 		private System.Windows.Forms.TabControl tabControl1;
 		private System.Windows.Forms.TabPage tabPage1;
-		private System.Windows.Forms.TabPage tabPage2;
 		private System.Windows.Forms.ContextMenuStrip contextMenu1;
 		private ToolStripMenuItem menuItem1;
 		private ToolStripMenuItem menuItem2;
 		private ToolStripMenuItem menuItem3;
-		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-		private FireBlade.AeroForms.ProgressBar progressBar1;
-		private FireBlade.AeroForms.ProgressBar progressBar2;
-		private FireBlade.AeroForms.ProgressBar progressBar3;
-		private FireBlade.AeroForms.ProgressBar progressBar4;
 		private System.Windows.Forms.TabPage tabPage4;
 		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
 		private FireBlade.AeroForms.TextBox textBox1;

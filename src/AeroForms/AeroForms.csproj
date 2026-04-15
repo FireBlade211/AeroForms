@@ -51,9 +51,6 @@
     <Compile Update="ListView.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="ProgressBar.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Update="SplitButton.cs">
       <SubType>Component</SubType>
     </Compile>
