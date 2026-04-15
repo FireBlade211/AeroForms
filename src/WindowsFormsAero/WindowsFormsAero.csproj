@@ -72,4 +72,10 @@
     </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Piotr\Projects\Visual Studio Repos\AeroForms\src\WindowsFormsAero\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Piotr\Projects\Visual Studio Repos\AeroForms\src\WindowsFormsAero\.editorconfig" />
+  </ItemGroup>
 </Project>
