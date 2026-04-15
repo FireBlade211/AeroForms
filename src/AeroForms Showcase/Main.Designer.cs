@@ -29,713 +29,461 @@ namespace WindowsFormsAeroShowcase {
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node0");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node16");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node17");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node14", new System.Windows.Forms.TreeNode[] {
-            treeNode4,
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node15");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node12", new System.Windows.Forms.TreeNode[] {
-            treeNode3,
-            treeNode6,
-            treeNode7});
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
-            treeNode8});
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node37");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node36", new System.Windows.Forms.TreeNode[] {
-            treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Node35", new System.Windows.Forms.TreeNode[] {
-            treeNode11});
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node33", new System.Windows.Forms.TreeNode[] {
-            treeNode12});
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node32", new System.Windows.Forms.TreeNode[] {
-            treeNode13});
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node11", new System.Windows.Forms.TreeNode[] {
-            treeNode14});
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node8", new System.Windows.Forms.TreeNode[] {
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node34");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Node9", new System.Windows.Forms.TreeNode[] {
-            treeNode17});
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Node10");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
-            treeNode16,
-            treeNode18,
-            treeNode19});
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Node29");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Node41");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Node40", new System.Windows.Forms.TreeNode[] {
-            treeNode23});
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Node39", new System.Windows.Forms.TreeNode[] {
-            treeNode24});
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Node38", new System.Windows.Forms.TreeNode[] {
-            treeNode25});
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Node30", new System.Windows.Forms.TreeNode[] {
-            treeNode26});
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Node31");
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Node27", new System.Windows.Forms.TreeNode[] {
-            treeNode22,
-            treeNode27,
-            treeNode28});
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Node26", new System.Windows.Forms.TreeNode[] {
-            treeNode29});
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Node5", new System.Windows.Forms.TreeNode[] {
-            treeNode30});
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Node25");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Node23", new System.Windows.Forms.TreeNode[] {
-            treeNode32});
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Node24");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Node21", new System.Windows.Forms.TreeNode[] {
-            treeNode33,
-            treeNode34});
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Node22");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Node28");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Node18", new System.Windows.Forms.TreeNode[] {
-            treeNode35,
-            treeNode36,
-            treeNode37});
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Node19");
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Node20");
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Node6", new System.Windows.Forms.TreeNode[] {
-            treeNode38,
-            treeNode39,
-            treeNode40});
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Node0");
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Node16");
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Node17");
-            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Node14", new System.Windows.Forms.TreeNode[] {
-            treeNode46,
-            treeNode47});
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Node15");
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Node12", new System.Windows.Forms.TreeNode[] {
-            treeNode45,
-            treeNode48,
-            treeNode49});
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
-            treeNode50});
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Node37");
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Node36", new System.Windows.Forms.TreeNode[] {
-            treeNode52});
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Node35", new System.Windows.Forms.TreeNode[] {
-            treeNode53});
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Node33", new System.Windows.Forms.TreeNode[] {
-            treeNode54});
-            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Node32", new System.Windows.Forms.TreeNode[] {
-            treeNode55});
-            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Node11", new System.Windows.Forms.TreeNode[] {
-            treeNode56});
-            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Node8", new System.Windows.Forms.TreeNode[] {
-            treeNode57});
-            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Node34");
-            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Node9", new System.Windows.Forms.TreeNode[] {
-            treeNode59});
-            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Node10");
-            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
-            treeNode58,
-            treeNode60,
-            treeNode61});
-            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Node29");
-            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("Node41");
-            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("Node40", new System.Windows.Forms.TreeNode[] {
-            treeNode65});
-            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("Node39", new System.Windows.Forms.TreeNode[] {
-            treeNode66});
-            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("Node38", new System.Windows.Forms.TreeNode[] {
-            treeNode67});
-            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("Node30", new System.Windows.Forms.TreeNode[] {
-            treeNode68});
-            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("Node31");
-            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("Node27", new System.Windows.Forms.TreeNode[] {
-            treeNode64,
-            treeNode69,
-            treeNode70});
-            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("Node26", new System.Windows.Forms.TreeNode[] {
-            treeNode71});
-            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("Node5", new System.Windows.Forms.TreeNode[] {
-            treeNode72});
-            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("Node25");
-            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("Node23", new System.Windows.Forms.TreeNode[] {
-            treeNode74});
-            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("Node24");
-            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("Node21", new System.Windows.Forms.TreeNode[] {
-            treeNode75,
-            treeNode76});
-            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("Node22");
-            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("Node28");
-            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("Node18", new System.Windows.Forms.TreeNode[] {
-            treeNode77,
-            treeNode78,
-            treeNode79});
-            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("Node19");
-            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("Node20");
-            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("Node6", new System.Windows.Forms.TreeNode[] {
-            treeNode80,
-            treeNode81,
-            treeNode82});
-            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Item 1", 0);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Item 2", 4);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("Item 3", 10);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("Item 4", 2);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("Item 5", 3);
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.themedLabel2 = new FireBlade.AeroForms.ThemeLabel();
-            this.themedLabel1 = new FireBlade.AeroForms.ThemeLabel();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new FireBlade.AeroForms.Button();
-            this.splitButton2 = new FireBlade.AeroForms.SplitButton();
-            this.contextMenu1 = new System.Windows.Forms.ContextMenuStrip();
-            this.menuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitButton1 = new FireBlade.AeroForms.SplitButton();
-            this.commandLink1 = new FireBlade.AeroForms.CommandLink();
-            this.commandLink2 = new FireBlade.AeroForms.CommandLink();
-            this.commandLink3 = new FireBlade.AeroForms.CommandLink();
-            this.commandLink4 = new FireBlade.AeroForms.CommandLink();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.progressBar1 = new FireBlade.AeroForms.ProgressBar();
-            this.progressBar2 = new FireBlade.AeroForms.ProgressBar();
-            this.progressBar3 = new FireBlade.AeroForms.ProgressBar();
-            this.progressBar4 = new FireBlade.AeroForms.ProgressBar();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox1 = new FireBlade.AeroForms.TextBox();
-            this.textBox2 = new FireBlade.AeroForms.TextBox();
-            this.comboBox1 = new FireBlade.AeroForms.ComboBox();
-            this.treeView1 = new FireBlade.AeroForms.TreeView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.treeView2 = new System.Windows.Forms.TreeView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.listView1 = new FireBlade.AeroForms.ListView();
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.thumbnailViewer1 = new FireBlade.AeroForms.Dwm.ThumbnailViewer();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.labelVDesktopId = new System.Windows.Forms.Label();
-            this.labelVDesktopCurrent = new System.Windows.Forms.Label();
-            this.buttonVDesktop = new FireBlade.AeroForms.Button();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.flowLayoutPanel4.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.flowLayoutPanel3.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            this.SuspendLayout();
-            //
+            TreeNode treeNode1 = new TreeNode("Node1");
+            TreeNode treeNode2 = new TreeNode("Node2");
+            TreeNode treeNode3 = new TreeNode("Node0");
+            TreeNode treeNode4 = new TreeNode("Node16");
+            TreeNode treeNode5 = new TreeNode("Node17");
+            TreeNode treeNode6 = new TreeNode("Node14", new TreeNode[] { treeNode4, treeNode5 });
+            TreeNode treeNode7 = new TreeNode("Node15");
+            TreeNode treeNode8 = new TreeNode("Node12", new TreeNode[] { treeNode3, treeNode6, treeNode7 });
+            TreeNode treeNode9 = new TreeNode("Node2", new TreeNode[] { treeNode8 });
+            TreeNode treeNode10 = new TreeNode("Node37");
+            TreeNode treeNode11 = new TreeNode("Node36", new TreeNode[] { treeNode10 });
+            TreeNode treeNode12 = new TreeNode("Node35", new TreeNode[] { treeNode11 });
+            TreeNode treeNode13 = new TreeNode("Node33", new TreeNode[] { treeNode12 });
+            TreeNode treeNode14 = new TreeNode("Node32", new TreeNode[] { treeNode13 });
+            TreeNode treeNode15 = new TreeNode("Node11", new TreeNode[] { treeNode14 });
+            TreeNode treeNode16 = new TreeNode("Node8", new TreeNode[] { treeNode15 });
+            TreeNode treeNode17 = new TreeNode("Node34");
+            TreeNode treeNode18 = new TreeNode("Node9", new TreeNode[] { treeNode17 });
+            TreeNode treeNode19 = new TreeNode("Node10");
+            TreeNode treeNode20 = new TreeNode("Node3", new TreeNode[] { treeNode16, treeNode18, treeNode19 });
+            TreeNode treeNode21 = new TreeNode("Node4");
+            TreeNode treeNode22 = new TreeNode("Node29");
+            TreeNode treeNode23 = new TreeNode("Node41");
+            TreeNode treeNode24 = new TreeNode("Node40", new TreeNode[] { treeNode23 });
+            TreeNode treeNode25 = new TreeNode("Node39", new TreeNode[] { treeNode24 });
+            TreeNode treeNode26 = new TreeNode("Node38", new TreeNode[] { treeNode25 });
+            TreeNode treeNode27 = new TreeNode("Node30", new TreeNode[] { treeNode26 });
+            TreeNode treeNode28 = new TreeNode("Node31");
+            TreeNode treeNode29 = new TreeNode("Node27", new TreeNode[] { treeNode22, treeNode27, treeNode28 });
+            TreeNode treeNode30 = new TreeNode("Node26", new TreeNode[] { treeNode29 });
+            TreeNode treeNode31 = new TreeNode("Node5", new TreeNode[] { treeNode30 });
+            TreeNode treeNode32 = new TreeNode("Node25");
+            TreeNode treeNode33 = new TreeNode("Node23", new TreeNode[] { treeNode32 });
+            TreeNode treeNode34 = new TreeNode("Node24");
+            TreeNode treeNode35 = new TreeNode("Node21", new TreeNode[] { treeNode33, treeNode34 });
+            TreeNode treeNode36 = new TreeNode("Node22");
+            TreeNode treeNode37 = new TreeNode("Node28");
+            TreeNode treeNode38 = new TreeNode("Node18", new TreeNode[] { treeNode35, treeNode36, treeNode37 });
+            TreeNode treeNode39 = new TreeNode("Node19");
+            TreeNode treeNode40 = new TreeNode("Node20");
+            TreeNode treeNode41 = new TreeNode("Node6", new TreeNode[] { treeNode38, treeNode39, treeNode40 });
+            TreeNode treeNode42 = new TreeNode("Node7");
+            TreeNode treeNode43 = new TreeNode("Node1");
+            TreeNode treeNode44 = new TreeNode("Node2");
+            TreeNode treeNode45 = new TreeNode("Node0");
+            TreeNode treeNode46 = new TreeNode("Node16");
+            TreeNode treeNode47 = new TreeNode("Node17");
+            TreeNode treeNode48 = new TreeNode("Node14", new TreeNode[] { treeNode46, treeNode47 });
+            TreeNode treeNode49 = new TreeNode("Node15");
+            TreeNode treeNode50 = new TreeNode("Node12", new TreeNode[] { treeNode45, treeNode48, treeNode49 });
+            TreeNode treeNode51 = new TreeNode("Node2", new TreeNode[] { treeNode50 });
+            TreeNode treeNode52 = new TreeNode("Node37");
+            TreeNode treeNode53 = new TreeNode("Node36", new TreeNode[] { treeNode52 });
+            TreeNode treeNode54 = new TreeNode("Node35", new TreeNode[] { treeNode53 });
+            TreeNode treeNode55 = new TreeNode("Node33", new TreeNode[] { treeNode54 });
+            TreeNode treeNode56 = new TreeNode("Node32", new TreeNode[] { treeNode55 });
+            TreeNode treeNode57 = new TreeNode("Node11", new TreeNode[] { treeNode56 });
+            TreeNode treeNode58 = new TreeNode("Node8", new TreeNode[] { treeNode57 });
+            TreeNode treeNode59 = new TreeNode("Node34");
+            TreeNode treeNode60 = new TreeNode("Node9", new TreeNode[] { treeNode59 });
+            TreeNode treeNode61 = new TreeNode("Node10");
+            TreeNode treeNode62 = new TreeNode("Node3", new TreeNode[] { treeNode58, treeNode60, treeNode61 });
+            TreeNode treeNode63 = new TreeNode("Node4");
+            TreeNode treeNode64 = new TreeNode("Node29");
+            TreeNode treeNode65 = new TreeNode("Node41");
+            TreeNode treeNode66 = new TreeNode("Node40", new TreeNode[] { treeNode65 });
+            TreeNode treeNode67 = new TreeNode("Node39", new TreeNode[] { treeNode66 });
+            TreeNode treeNode68 = new TreeNode("Node38", new TreeNode[] { treeNode67 });
+            TreeNode treeNode69 = new TreeNode("Node30", new TreeNode[] { treeNode68 });
+            TreeNode treeNode70 = new TreeNode("Node31");
+            TreeNode treeNode71 = new TreeNode("Node27", new TreeNode[] { treeNode64, treeNode69, treeNode70 });
+            TreeNode treeNode72 = new TreeNode("Node26", new TreeNode[] { treeNode71 });
+            TreeNode treeNode73 = new TreeNode("Node5", new TreeNode[] { treeNode72 });
+            TreeNode treeNode74 = new TreeNode("Node25");
+            TreeNode treeNode75 = new TreeNode("Node23", new TreeNode[] { treeNode74 });
+            TreeNode treeNode76 = new TreeNode("Node24");
+            TreeNode treeNode77 = new TreeNode("Node21", new TreeNode[] { treeNode75, treeNode76 });
+            TreeNode treeNode78 = new TreeNode("Node22");
+            TreeNode treeNode79 = new TreeNode("Node28");
+            TreeNode treeNode80 = new TreeNode("Node18", new TreeNode[] { treeNode77, treeNode78, treeNode79 });
+            TreeNode treeNode81 = new TreeNode("Node19");
+            TreeNode treeNode82 = new TreeNode("Node20");
+            TreeNode treeNode83 = new TreeNode("Node6", new TreeNode[] { treeNode80, treeNode81, treeNode82 });
+            TreeNode treeNode84 = new TreeNode("Node7");
+            ListViewItem listViewItem1 = new ListViewItem("Item 1", 0);
+            ListViewItem listViewItem2 = new ListViewItem("Item 2", 4);
+            ListViewItem listViewItem3 = new ListViewItem("Item 3", 10);
+            ListViewItem listViewItem4 = new ListViewItem("Item 4", 2);
+            ListViewItem listViewItem5 = new ListViewItem("Item 5", 3);
+            imageList1 = new ImageList(components);
+            themedLabel2 = new FireBlade.AeroForms.ThemeLabel();
+            themedLabel1 = new FireBlade.AeroForms.ThemeLabel();
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            button1 = new FireBlade.AeroForms.Button();
+            splitButton2 = new FireBlade.AeroForms.SplitButton();
+            contextMenu1 = new ContextMenuStrip(components);
+            menuItem3 = new ToolStripMenuItem();
+            menuItem1 = new ToolStripMenuItem();
+            menuItem2 = new ToolStripMenuItem();
+            splitButton1 = new FireBlade.AeroForms.SplitButton();
+            commandLink1 = new FireBlade.AeroForms.CommandLink();
+            commandLink2 = new FireBlade.AeroForms.CommandLink();
+            commandLink3 = new FireBlade.AeroForms.CommandLink();
+            commandLink4 = new FireBlade.AeroForms.CommandLink();
+            tabPage2 = new TabPage();
+            flowLayoutPanel2 = new FlowLayoutPanel();
+            progressBar1 = new FireBlade.AeroForms.ProgressBar();
+            progressBar2 = new FireBlade.AeroForms.ProgressBar();
+            progressBar3 = new FireBlade.AeroForms.ProgressBar();
+            progressBar4 = new FireBlade.AeroForms.ProgressBar();
+            tabPage4 = new TabPage();
+            flowLayoutPanel3 = new FlowLayoutPanel();
+            textBox1 = new FireBlade.AeroForms.TextBox();
+            textBox2 = new FireBlade.AeroForms.TextBox();
+            comboBox1 = new FireBlade.AeroForms.ComboBox();
+            treeView1 = new FireBlade.AeroForms.TreeView();
+            label1 = new Label();
+            treeView2 = new TreeView();
+            label2 = new Label();
+            listView1 = new FireBlade.AeroForms.ListView();
+            imageList2 = new ImageList(components);
+            tabPage5 = new TabPage();
+            thumbnailViewer1 = new FireBlade.AeroForms.Dwm.ThumbnailViewer();
+            tabPage6 = new TabPage();
+            labelVDesktopId = new Label();
+            labelVDesktopCurrent = new Label();
+            buttonVDesktop = new FireBlade.AeroForms.Button();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            flowLayoutPanel1.SuspendLayout();
+            contextMenu1.SuspendLayout();
+            tabPage2.SuspendLayout();
+            flowLayoutPanel2.SuspendLayout();
+            tabPage4.SuspendLayout();
+            flowLayoutPanel3.SuspendLayout();
+            tabPage5.SuspendLayout();
+            tabPage6.SuspendLayout();
+            SuspendLayout();
+            // 
             // imageList1
-            //
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "audiosrv.dll_I00cb_0409.png");
-            this.imageList1.Images.SetKeyName(1, "ActiveContentWizard.ico");
-            this.imageList1.Images.SetKeyName(2, "feedback.ico");
-            this.imageList1.Images.SetKeyName(3, "imageres.15.ico");
-            this.imageList1.Images.SetKeyName(4, "imageres.13.ico");
-            this.imageList1.Images.SetKeyName(5, "accessibilitycpl.dll_I0146_0409.png");
-            this.imageList1.Images.SetKeyName(6, "bthprops.cpl_I0097_0409.png");
-            this.imageList1.Images.SetKeyName(7, "accessibilitycpl.dll_I0144_0409.png");
-            this.imageList1.Images.SetKeyName(8, "digitalx.exe_I0065_0409.png");
-            this.imageList1.Images.SetKeyName(9, "hdwwiz.exe_I05dd_0409.png");
-            this.imageList1.Images.SetKeyName(10, "setup_wm.exe_I0046_0409.png");
-            //
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            imageList1.Images.SetKeyName(0, "audiosrv.dll_I00cb_0409.png");
+            imageList1.Images.SetKeyName(1, "ActiveContentWizard.ico");
+            imageList1.Images.SetKeyName(2, "feedback.ico");
+            imageList1.Images.SetKeyName(3, "imageres.15.ico");
+            imageList1.Images.SetKeyName(4, "imageres.13.ico");
+            imageList1.Images.SetKeyName(5, "accessibilitycpl.dll_I0146_0409.png");
+            imageList1.Images.SetKeyName(6, "bthprops.cpl_I0097_0409.png");
+            imageList1.Images.SetKeyName(7, "accessibilitycpl.dll_I0144_0409.png");
+            imageList1.Images.SetKeyName(8, "digitalx.exe_I0065_0409.png");
+            imageList1.Images.SetKeyName(9, "hdwwiz.exe_I05dd_0409.png");
+            imageList1.Images.SetKeyName(10, "setup_wm.exe_I0046_0409.png");
+            // 
             // themedLabel2
-            //
-            this.themedLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.themedLabel2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.themedLabel2.Location = new System.Drawing.Point(0, 698);
-            this.themedLabel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.themedLabel2.Name = "themedLabel2";
-            this.themedLabel2.Padding = new System.Windows.Forms.Padding(0, 0, 10, 12);
-            this.themedLabel2.Size = new System.Drawing.Size(998, 54);
-            this.themedLabel2.TabIndex = 26;
-            this.themedLabel2.Text = "Welcome! Take a look around.";
-            this.themedLabel2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.themedLabel2.TextAlignVertical = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
-            //
+            // 
+            themedLabel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            themedLabel2.Location = new System.Drawing.Point(0, 465);
+            themedLabel2.Name = "themedLabel2";
+            themedLabel2.Padding = new Padding(0, 0, 7, 8);
+            themedLabel2.Size = new System.Drawing.Size(665, 36);
+            themedLabel2.TabIndex = 26;
+            themedLabel2.Text = "Welcome! Take a look around.";
+            themedLabel2.TextAlign = HorizontalAlignment.Center;
+            themedLabel2.TextAlignVertical = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
+            // 
             // themedLabel1
-            //
-            this.themedLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.themedLabel1.Font = new System.Drawing.Font("Segoe UI Light", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.themedLabel1.Location = new System.Drawing.Point(0, 0);
-            this.themedLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.themedLabel1.Name = "themedLabel1";
-            this.themedLabel1.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.themedLabel1.Size = new System.Drawing.Size(999, 85);
-            this.themedLabel1.TabIndex = 25;
-            this.themedLabel1.Text = "Windows Forms Aero";
-            this.themedLabel1.TextAlignVertical = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
-            //
+            // 
+            themedLabel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            themedLabel1.Font = new System.Drawing.Font("Segoe UI Light", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            themedLabel1.Location = new System.Drawing.Point(0, 0);
+            themedLabel1.Name = "themedLabel1";
+            themedLabel1.Padding = new Padding(9, 0, 0, 0);
+            themedLabel1.Size = new System.Drawing.Size(666, 57);
+            themedLabel1.TabIndex = 25;
+            themedLabel1.Text = "AeroForms";
+            themedLabel1.TextAlignVertical = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
+            // 
             // tabControl1
-            //
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Location = new System.Drawing.Point(0, 95);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(999, 602);
-            this.tabControl1.TabIndex = 0;
-            //
+            // 
+            tabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Controls.Add(tabPage5);
+            tabControl1.Controls.Add(tabPage6);
+            tabControl1.Location = new System.Drawing.Point(0, 63);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new System.Drawing.Size(666, 401);
+            tabControl1.TabIndex = 0;
+            // 
             // tabPage1
-            //
-            this.tabPage1.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage1.Controls.Add(this.flowLayoutPanel1);
-            this.tabPage1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tabPage1.Location = new System.Drawing.Point(4, 34);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage1.Size = new System.Drawing.Size(991, 564);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Buttons";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            //
+            // 
+            tabPage1.BackColor = System.Drawing.Color.Transparent;
+            tabPage1.Controls.Add(flowLayoutPanel1);
+            tabPage1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            tabPage1.ForeColor = System.Drawing.SystemColors.ControlText;
+            tabPage1.Location = new System.Drawing.Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3, 3, 3, 3);
+            tabPage1.Size = new System.Drawing.Size(658, 373);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Buttons";
+            tabPage1.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel1
-            //
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.splitButton2);
-            this.flowLayoutPanel1.Controls.Add(this.splitButton1);
-            this.flowLayoutPanel1.Controls.Add(this.commandLink1);
-            this.flowLayoutPanel1.Controls.Add(this.commandLink2);
-            this.flowLayoutPanel1.Controls.Add(this.commandLink3);
-            this.flowLayoutPanel1.Controls.Add(this.commandLink4);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 5);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(983, 554);
-            this.flowLayoutPanel1.TabIndex = 0;
-            //
+            // 
+            flowLayoutPanel1.Controls.Add(button1);
+            flowLayoutPanel1.Controls.Add(splitButton2);
+            flowLayoutPanel1.Controls.Add(splitButton1);
+            flowLayoutPanel1.Controls.Add(commandLink1);
+            flowLayoutPanel1.Controls.Add(commandLink2);
+            flowLayoutPanel1.Controls.Add(commandLink3);
+            flowLayoutPanel1.Controls.Add(commandLink4);
+            flowLayoutPanel1.Dock = DockStyle.Fill;
+            flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
+            flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new System.Drawing.Size(652, 367);
+            flowLayoutPanel1.TabIndex = 0;
+            // 
             // button1
-            //
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Location = new System.Drawing.Point(4, 5);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.ShowShield = true;
-            this.button1.Size = new System.Drawing.Size(203, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Shield Button";
-            this.button1.UseVisualStyleBackColor = true;
-            //
+            // 
+            button1.FlatStyle = FlatStyle.System;
+            button1.Location = new System.Drawing.Point(3, 3);
+            button1.Name = "button1";
+            button1.ShowShield = true;
+            button1.Size = new System.Drawing.Size(135, 30);
+            button1.TabIndex = 0;
+            button1.Text = "Shield Button";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // splitButton2
-            //
-            this.splitButton2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.splitButton2.Location = new System.Drawing.Point(4, 60);
-            this.splitButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.splitButton2.Name = "splitButton2";
-            this.splitButton2.Size = new System.Drawing.Size(203, 45);
-            this.splitButton2.SplitMenu = this.contextMenu1;
-            this.splitButton2.TabIndex = 6;
-            this.splitButton2.Text = "Split";
-            this.splitButton2.UseVisualStyleBackColor = true;
-            //
+            // 
+            splitButton2.FlatStyle = FlatStyle.System;
+            splitButton2.Location = new System.Drawing.Point(3, 39);
+            splitButton2.Name = "splitButton2";
+            splitButton2.Size = new System.Drawing.Size(135, 30);
+            splitButton2.SplitMenu = contextMenu1;
+            splitButton2.TabIndex = 6;
+            splitButton2.Text = "Split";
+            splitButton2.UseVisualStyleBackColor = true;
+            // 
             // contextMenu1
-            //
-            // TODO MenuItem is no longer supported. Use ToolStripMenuItem instead. For more details see https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls
-                                                this.contextMenu1.Items.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
-            this.menuItem3,
-            this.menuItem1,
-            this.menuItem2});
-            //
+            // 
+            contextMenu1.Items.AddRange(new ToolStripItem[] { menuItem3, menuItem1, menuItem2 });
+            contextMenu1.Name = "contextMenu1";
+            contextMenu1.Size = new System.Drawing.Size(131, 70);
+            // 
             // menuItem3
-            //
-            this.menuItem3.Text = "Automatic";
-            //
+            // 
+            menuItem3.Name = "menuItem3";
+            menuItem3.Size = new System.Drawing.Size(130, 22);
+            menuItem3.Text = "Automatic";
+            // 
             // menuItem1
-            //
-            this.menuItem1.Text = "Context";
-            //
+            // 
+            menuItem1.Name = "menuItem1";
+            menuItem1.Size = new System.Drawing.Size(130, 22);
+            menuItem1.Text = "Context";
+            // 
             // menuItem2
-            //
-            this.menuItem2.Text = "Menu";
-            //
+            // 
+            menuItem2.Name = "menuItem2";
+            menuItem2.Size = new System.Drawing.Size(130, 22);
+            menuItem2.Text = "Menu";
+            // 
             // splitButton1
-            //
-            this.splitButton1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.splitButton1.Location = new System.Drawing.Point(4, 115);
-            this.splitButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.splitButton1.Name = "splitButton1";
-            this.splitButton1.Size = new System.Drawing.Size(203, 45);
-            this.splitButton1.SplitButtonAlignLeft = true;
-            this.splitButton1.SplitMenu = this.contextMenu1;
-            this.splitButton1.TabIndex = 1;
-            this.splitButton1.Text = "Split left";
-            this.splitButton1.UseVisualStyleBackColor = true;
-            //
+            // 
+            splitButton1.FlatStyle = FlatStyle.System;
+            splitButton1.Location = new System.Drawing.Point(3, 75);
+            splitButton1.Name = "splitButton1";
+            splitButton1.Size = new System.Drawing.Size(135, 30);
+            splitButton1.SplitButtonAlignLeft = true;
+            splitButton1.SplitMenu = contextMenu1;
+            splitButton1.TabIndex = 1;
+            splitButton1.Text = "Split left";
+            splitButton1.UseVisualStyleBackColor = true;
+            // 
             // commandLink1
-            //
-            this.commandLink1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.commandLink1.Location = new System.Drawing.Point(4, 170);
-            this.commandLink1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.commandLink1.Name = "commandLink1";
-            this.commandLink1.Note = "Detail note.";
-            this.commandLink1.Size = new System.Drawing.Size(344, 115);
-            this.commandLink1.TabIndex = 2;
-            this.commandLink1.Text = "Command Link";
-            this.commandLink1.UseVisualStyleBackColor = true;
-            this.commandLink1.Click += new System.EventHandler(this.commandLink1_Click);
-            //
+            // 
+            commandLink1.FlatStyle = FlatStyle.System;
+            commandLink1.Location = new System.Drawing.Point(3, 111);
+            commandLink1.Name = "commandLink1";
+            commandLink1.Note = "Detail note.";
+            commandLink1.Size = new System.Drawing.Size(229, 77);
+            commandLink1.TabIndex = 2;
+            commandLink1.Text = "Command Link";
+            commandLink1.UseVisualStyleBackColor = true;
+            commandLink1.Click += commandLink1_Click;
+            // 
             // commandLink2
-            //
-            this.commandLink2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.commandLink2.Location = new System.Drawing.Point(4, 295);
-            this.commandLink2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.commandLink2.Name = "commandLink2";
-            this.commandLink2.Note = "This command requires administrator access rights.";
-            this.commandLink2.ShowShield = true;
-            this.commandLink2.Size = new System.Drawing.Size(344, 115);
-            this.commandLink2.TabIndex = 3;
-            this.commandLink2.Text = "Shield";
-            this.commandLink2.UseVisualStyleBackColor = true;
-            //
+            // 
+            commandLink2.FlatStyle = FlatStyle.System;
+            commandLink2.Location = new System.Drawing.Point(3, 194);
+            commandLink2.Name = "commandLink2";
+            commandLink2.Note = "This command requires administrator access rights.";
+            commandLink2.ShowShield = true;
+            commandLink2.Size = new System.Drawing.Size(229, 77);
+            commandLink2.TabIndex = 3;
+            commandLink2.Text = "Shield";
+            commandLink2.UseVisualStyleBackColor = true;
+            // 
             // commandLink3
-            //
-            this.commandLink3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.commandLink3.Location = new System.Drawing.Point(4, 420);
-            this.commandLink3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.commandLink3.Name = "commandLink3";
-            this.commandLink3.Size = new System.Drawing.Size(390, 120);
-            this.commandLink3.TabIndex = 4;
-            this.commandLink3.Text = "Show Test Vertical Panel";
-            this.commandLink3.UseVisualStyleBackColor = true;
-            this.commandLink3.Click += new System.EventHandler(this.commandLink3_Click);
-            //
+            // 
+            commandLink3.FlatStyle = FlatStyle.System;
+            commandLink3.Location = new System.Drawing.Point(3, 277);
+            commandLink3.Name = "commandLink3";
+            commandLink3.Size = new System.Drawing.Size(260, 80);
+            commandLink3.TabIndex = 4;
+            commandLink3.Text = "Show Test Vertical Panel";
+            commandLink3.UseVisualStyleBackColor = true;
+            commandLink3.Click += commandLink3_Click;
+            // 
             // commandLink4
-            //
-            this.commandLink4.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.commandLink4.Location = new System.Drawing.Point(402, 5);
-            this.commandLink4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.commandLink4.Name = "commandLink4";
-            this.commandLink4.Size = new System.Drawing.Size(434, 117);
-            this.commandLink4.TabIndex = 5;
-            this.commandLink4.Text = "Show Test Horizontal Panel";
-            this.commandLink4.UseVisualStyleBackColor = true;
-            this.commandLink4.Click += new System.EventHandler(this.commandLink4_Click);
-            //
+            // 
+            commandLink4.FlatStyle = FlatStyle.System;
+            commandLink4.Location = new System.Drawing.Point(269, 3);
+            commandLink4.Name = "commandLink4";
+            commandLink4.Size = new System.Drawing.Size(289, 78);
+            commandLink4.TabIndex = 5;
+            commandLink4.Text = "Show Test Horizontal Panel";
+            commandLink4.UseVisualStyleBackColor = true;
+            commandLink4.Click += commandLink4_Click;
+            // 
             // tabPage2
-            //
-            this.tabPage2.Controls.Add(this.flowLayoutPanel2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 34);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage2.Size = new System.Drawing.Size(991, 564);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Progress bars";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            //
+            // 
+            tabPage2.Controls.Add(flowLayoutPanel2);
+            tabPage2.Location = new System.Drawing.Point(4, 24);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3, 3, 3, 3);
+            tabPage2.Size = new System.Drawing.Size(658, 373);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Progress bars";
+            tabPage2.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel2
-            //
-            this.flowLayoutPanel2.Controls.Add(this.progressBar1);
-            this.flowLayoutPanel2.Controls.Add(this.progressBar2);
-            this.flowLayoutPanel2.Controls.Add(this.progressBar3);
-            this.flowLayoutPanel2.Controls.Add(this.progressBar4);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(4, 5);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(983, 554);
-            this.flowLayoutPanel2.TabIndex = 0;
-            //
+            // 
+            flowLayoutPanel2.Controls.Add(progressBar1);
+            flowLayoutPanel2.Controls.Add(progressBar2);
+            flowLayoutPanel2.Controls.Add(progressBar3);
+            flowLayoutPanel2.Controls.Add(progressBar4);
+            flowLayoutPanel2.Dock = DockStyle.Fill;
+            flowLayoutPanel2.FlowDirection = FlowDirection.TopDown;
+            flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new System.Drawing.Size(652, 367);
+            flowLayoutPanel2.TabIndex = 0;
+            // 
             // progressBar1
-            //
-            this.progressBar1.Location = new System.Drawing.Point(4, 5);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(591, 45);
-            this.progressBar1.TabIndex = 0;
-            this.progressBar1.Value = 70;
-            //
+            // 
+            progressBar1.Location = new System.Drawing.Point(3, 3);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new System.Drawing.Size(394, 30);
+            progressBar1.TabIndex = 0;
+            progressBar1.Value = 70;
+            // 
             // progressBar2
-            //
-            this.progressBar2.Location = new System.Drawing.Point(4, 60);
-            this.progressBar2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(591, 45);
-            this.progressBar2.State = FireBlade.AeroForms.ProgressBarState.Paused;
-            this.progressBar2.TabIndex = 1;
-            this.progressBar2.Value = 50;
-            //
+            // 
+            progressBar2.Location = new System.Drawing.Point(3, 39);
+            progressBar2.Name = "progressBar2";
+            progressBar2.Size = new System.Drawing.Size(394, 30);
+            progressBar2.State = FireBlade.AeroForms.ProgressBarState.Paused;
+            progressBar2.TabIndex = 1;
+            progressBar2.Value = 50;
+            // 
             // progressBar3
-            //
-            this.progressBar3.Location = new System.Drawing.Point(4, 115);
-            this.progressBar3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(591, 45);
-            this.progressBar3.State = FireBlade.AeroForms.ProgressBarState.Error;
-            this.progressBar3.TabIndex = 2;
-            this.progressBar3.Value = 30;
-            //
+            // 
+            progressBar3.Location = new System.Drawing.Point(3, 75);
+            progressBar3.Name = "progressBar3";
+            progressBar3.Size = new System.Drawing.Size(394, 30);
+            progressBar3.State = FireBlade.AeroForms.ProgressBarState.Error;
+            progressBar3.TabIndex = 2;
+            progressBar3.Value = 30;
+            // 
             // progressBar4
-            //
-            this.progressBar4.Location = new System.Drawing.Point(4, 170);
-            this.progressBar4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.progressBar4.Name = "progressBar4";
-            this.progressBar4.Size = new System.Drawing.Size(591, 45);
-            this.progressBar4.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.progressBar4.TabIndex = 3;
-            //
-            // tabPage3
-            //
-            this.tabPage3.Controls.Add(this.flowLayoutPanel4);
-            this.tabPage3.Location = new System.Drawing.Point(4, 34);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(991, 564);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Task Dialogs";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            //
-            // flowLayoutPanel4
-            //
-            this.flowLayoutPanel4.Controls.Add(this.button2);
-            this.flowLayoutPanel4.Controls.Add(this.button11);
-            this.flowLayoutPanel4.Controls.Add(this.button3);
-            this.flowLayoutPanel4.Controls.Add(this.button8);
-            this.flowLayoutPanel4.Controls.Add(this.button4);
-            this.flowLayoutPanel4.Controls.Add(this.button5);
-            this.flowLayoutPanel4.Controls.Add(this.button6);
-            this.flowLayoutPanel4.Controls.Add(this.button7);
-            this.flowLayoutPanel4.Controls.Add(this.button10);
-            this.flowLayoutPanel4.Controls.Add(this.button9);
-            this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel4.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(991, 564);
-            this.flowLayoutPanel4.TabIndex = 0;
-            //
-            // button2
-            //
-            this.button2.Location = new System.Drawing.Point(4, 5);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(187, 45);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Information";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.td_info);
-            //
-            // button11
-            //
-            this.button11.Location = new System.Drawing.Point(4, 60);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(187, 45);
-            this.button11.TabIndex = 1;
-            this.button11.Text = "Warning";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.ts_warning);
-            //
-            // button3
-            //
-            this.button3.Location = new System.Drawing.Point(4, 115);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(187, 45);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Error";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.td_error);
-            //
-            // button8
-            //
-            this.button8.Location = new System.Drawing.Point(4, 170);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(187, 45);
-            this.button8.TabIndex = 3;
-            this.button8.Text = "Shield";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.td_shield);
-            //
-            // button4
-            //
-            this.button4.Location = new System.Drawing.Point(4, 225);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(187, 45);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Security Error";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.td_shielderror);
-            //
-            // button5
-            //
-            this.button5.Location = new System.Drawing.Point(4, 280);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(187, 45);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Security Success";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.td_shieldsuccess);
-            //
-            // button6
-            //
-            this.button6.Location = new System.Drawing.Point(4, 335);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(187, 45);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Blue shield";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.td_blueshield);
-            //
-            // button7
-            //
-            this.button7.Location = new System.Drawing.Point(4, 390);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(187, 45);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Gray shield";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.td_grayshield);
-            //
-            // button10
-            //
-            this.button10.Location = new System.Drawing.Point(4, 445);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(187, 100);
-            this.button10.TabIndex = 8;
-            this.button10.Text = "Complex dialog";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.td_complex);
-            //
-            // button9
-            //
-            this.button9.Location = new System.Drawing.Point(199, 5);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(187, 100);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "Progress bar dialog";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.td_progress);
-            //
+            // 
+            progressBar4.Location = new System.Drawing.Point(3, 111);
+            progressBar4.Name = "progressBar4";
+            progressBar4.Size = new System.Drawing.Size(394, 30);
+            progressBar4.Style = ProgressBarStyle.Marquee;
+            progressBar4.TabIndex = 3;
+            // 
             // tabPage4
-            //
-            this.tabPage4.Controls.Add(this.flowLayoutPanel3);
-            this.tabPage4.Location = new System.Drawing.Point(4, 34);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage4.Size = new System.Drawing.Size(991, 564);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Data controls";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            //
+            // 
+            tabPage4.Controls.Add(flowLayoutPanel3);
+            tabPage4.Location = new System.Drawing.Point(4, 24);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Padding = new Padding(3, 3, 3, 3);
+            tabPage4.Size = new System.Drawing.Size(658, 373);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "Data controls";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel3
-            //
-            this.flowLayoutPanel3.AutoScroll = true;
-            this.flowLayoutPanel3.Controls.Add(this.textBox1);
-            this.flowLayoutPanel3.Controls.Add(this.textBox2);
-            this.flowLayoutPanel3.Controls.Add(this.comboBox1);
-            this.flowLayoutPanel3.Controls.Add(this.treeView1);
-            this.flowLayoutPanel3.Controls.Add(this.label1);
-            this.flowLayoutPanel3.Controls.Add(this.treeView2);
-            this.flowLayoutPanel3.Controls.Add(this.label2);
-            this.flowLayoutPanel3.Controls.Add(this.listView1);
-            this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(4, 5);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(983, 554);
-            this.flowLayoutPanel3.TabIndex = 0;
-            //
+            // 
+            flowLayoutPanel3.AutoScroll = true;
+            flowLayoutPanel3.Controls.Add(textBox1);
+            flowLayoutPanel3.Controls.Add(textBox2);
+            flowLayoutPanel3.Controls.Add(comboBox1);
+            flowLayoutPanel3.Controls.Add(treeView1);
+            flowLayoutPanel3.Controls.Add(label1);
+            flowLayoutPanel3.Controls.Add(treeView2);
+            flowLayoutPanel3.Controls.Add(label2);
+            flowLayoutPanel3.Controls.Add(listView1);
+            flowLayoutPanel3.Dock = DockStyle.Fill;
+            flowLayoutPanel3.FlowDirection = FlowDirection.TopDown;
+            flowLayoutPanel3.Location = new System.Drawing.Point(3, 3);
+            flowLayoutPanel3.Name = "flowLayoutPanel3";
+            flowLayoutPanel3.Size = new System.Drawing.Size(652, 367);
+            flowLayoutPanel3.TabIndex = 0;
+            // 
             // textBox1
-            //
-            this.textBox1.CueBannerText = "Cue banner";
-            this.textBox1.Location = new System.Drawing.Point(4, 5);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(324, 31);
-            this.textBox1.TabIndex = 0;
-            //
+            // 
+            textBox1.CueBannerText = "Cue banner";
+            textBox1.Location = new System.Drawing.Point(3, 3);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new System.Drawing.Size(217, 23);
+            textBox1.TabIndex = 0;
+            // 
             // textBox2
-            //
-            this.textBox2.CueBannerText = "Cue banner (w/focus)";
-            this.textBox2.Location = new System.Drawing.Point(4, 46);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ShowCueFocused = true;
-            this.textBox2.Size = new System.Drawing.Size(324, 31);
-            this.textBox2.TabIndex = 1;
-            //
+            // 
+            textBox2.CueBannerText = "Cue banner (w/focus)";
+            textBox2.Location = new System.Drawing.Point(3, 32);
+            textBox2.Name = "textBox2";
+            textBox2.ShowCueFocused = true;
+            textBox2.Size = new System.Drawing.Size(217, 23);
+            textBox2.TabIndex = 1;
+            // 
             // comboBox1
-            //
-            this.comboBox1.CueBannerText = "Cue banner";
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.comboBox1.Location = new System.Drawing.Point(4, 87);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(324, 33);
-            this.comboBox1.TabIndex = 2;
-            //
+            // 
+            comboBox1.CueBannerText = "Cue banner";
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.FlatStyle = FlatStyle.System;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "1", "2", "3", "4", "5" });
+            comboBox1.Location = new System.Drawing.Point(3, 61);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new System.Drawing.Size(217, 23);
+            comboBox1.TabIndex = 2;
+            // 
             // treeView1
-            //
-            this.treeView1.HotTracking = true;
-            this.treeView1.ImageIndex = 0;
-            this.treeView1.ImageList = this.imageList1;
-            this.treeView1.Location = new System.Drawing.Point(336, 5);
-            this.treeView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.treeView1.Name = "treeView1";
+            // 
+            treeView1.HotTracking = true;
+            treeView1.ImageIndex = 0;
+            treeView1.ImageList = imageList1;
+            treeView1.Location = new System.Drawing.Point(226, 3);
+            treeView1.Name = "treeView1";
             treeNode1.ImageIndex = 10;
             treeNode1.Name = "Node1";
             treeNode1.Text = "Node1";
@@ -845,37 +593,29 @@ namespace WindowsFormsAeroShowcase {
             treeNode41.Text = "Node6";
             treeNode42.Name = "Node7";
             treeNode42.Text = "Node7";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode9,
-            treeNode20,
-            treeNode21,
-            treeNode31,
-            treeNode41,
-            treeNode42});
-            this.treeView1.SelectedImageIndex = 0;
-            this.treeView1.ShowLines = false;
-            this.treeView1.Size = new System.Drawing.Size(201, 446);
-            this.treeView1.TabIndex = 4;
-            //
+            treeView1.Nodes.AddRange(new TreeNode[] { treeNode1, treeNode2, treeNode9, treeNode20, treeNode21, treeNode31, treeNode41, treeNode42 });
+            treeView1.SelectedImageIndex = 0;
+            treeView1.ShowLines = false;
+            treeView1.Size = new System.Drawing.Size(135, 299);
+            treeView1.TabIndex = 4;
+            // 
             // label1
-            //
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(335, 456);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 25);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Aero tree view";
-            //
+            // 
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(225, 305);
+            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(82, 15);
+            label1.TabIndex = 7;
+            label1.Text = "Aero tree view";
+            // 
             // treeView2
-            //
-            this.treeView2.HotTracking = true;
-            this.treeView2.ImageIndex = 0;
-            this.treeView2.ImageList = this.imageList1;
-            this.treeView2.Location = new System.Drawing.Point(545, 5);
-            this.treeView2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.treeView2.Name = "treeView2";
+            // 
+            treeView2.HotTracking = true;
+            treeView2.ImageIndex = 0;
+            treeView2.ImageList = imageList1;
+            treeView2.Location = new System.Drawing.Point(367, 3);
+            treeView2.Name = "treeView2";
             treeNode43.ImageIndex = 10;
             treeNode43.Name = "Node1";
             treeNode43.Text = "Node1";
@@ -985,163 +725,152 @@ namespace WindowsFormsAeroShowcase {
             treeNode83.Text = "Node6";
             treeNode84.Name = "Node7";
             treeNode84.Text = "Node7";
-            this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode43,
-            treeNode44,
-            treeNode51,
-            treeNode62,
-            treeNode63,
-            treeNode73,
-            treeNode83,
-            treeNode84});
-            this.treeView2.SelectedImageIndex = 0;
-            this.treeView2.ShowLines = false;
-            this.treeView2.Size = new System.Drawing.Size(201, 446);
-            this.treeView2.TabIndex = 6;
-            //
+            treeView2.Nodes.AddRange(new TreeNode[] { treeNode43, treeNode44, treeNode51, treeNode62, treeNode63, treeNode73, treeNode83, treeNode84 });
+            treeView2.SelectedImageIndex = 0;
+            treeView2.ShowLines = false;
+            treeView2.Size = new System.Drawing.Size(135, 299);
+            treeView2.TabIndex = 6;
+            // 
             // label2
-            //
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(544, 456);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 25);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Standard tree view";
-            //
+            // 
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(366, 305);
+            label2.Margin = new Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(104, 15);
+            label2.TabIndex = 8;
+            label2.Text = "Standard tree view";
+            // 
             // listView1
-            //
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3,
-            listViewItem4,
-            listViewItem5});
-            this.listView1.LargeImageList = this.imageList2;
-            this.listView1.Location = new System.Drawing.Point(754, 5);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(423, 379);
-            this.listView1.SmallImageList = this.imageList1;
-            this.listView1.TabIndex = 5;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            //
+            // 
+            listView1.Items.AddRange(new ListViewItem[] { listViewItem1, listViewItem2, listViewItem3, listViewItem4, listViewItem5 });
+            listView1.LargeImageList = imageList2;
+            listView1.Location = new System.Drawing.Point(508, 3);
+            listView1.Name = "listView1";
+            listView1.Size = new System.Drawing.Size(283, 254);
+            listView1.SmallImageList = imageList1;
+            listView1.TabIndex = 5;
+            listView1.UseCompatibleStateImageBehavior = false;
+            // 
             // imageList2
-            //
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "audiosrv.dll_I00cb_0409.png");
-            this.imageList2.Images.SetKeyName(1, "ActiveContentWizard.ico");
-            this.imageList2.Images.SetKeyName(2, "feedback.ico");
-            this.imageList2.Images.SetKeyName(3, "imageres.15.ico");
-            this.imageList2.Images.SetKeyName(4, "imageres.13.ico");
-            this.imageList2.Images.SetKeyName(5, "accessibilitycpl.dll_I0146_0409.png");
-            this.imageList2.Images.SetKeyName(6, "bthprops.cpl_I0097_0409.png");
-            this.imageList2.Images.SetKeyName(7, "accessibilitycpl.dll_I0144_0409.png");
-            this.imageList2.Images.SetKeyName(8, "digitalx.exe_I0065_0409.png");
-            this.imageList2.Images.SetKeyName(9, "hdwwiz.exe_I05dd_0409.png");
-            this.imageList2.Images.SetKeyName(10, "setup_wm.exe_I0046_0409.png");
-            //
+            // 
+            imageList2.ColorDepth = ColorDepth.Depth32Bit;
+            imageList2.ImageStream = (ImageListStreamer)resources.GetObject("imageList2.ImageStream");
+            imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            imageList2.Images.SetKeyName(0, "audiosrv.dll_I00cb_0409.png");
+            imageList2.Images.SetKeyName(1, "ActiveContentWizard.ico");
+            imageList2.Images.SetKeyName(2, "feedback.ico");
+            imageList2.Images.SetKeyName(3, "imageres.15.ico");
+            imageList2.Images.SetKeyName(4, "imageres.13.ico");
+            imageList2.Images.SetKeyName(5, "accessibilitycpl.dll_I0146_0409.png");
+            imageList2.Images.SetKeyName(6, "bthprops.cpl_I0097_0409.png");
+            imageList2.Images.SetKeyName(7, "accessibilitycpl.dll_I0144_0409.png");
+            imageList2.Images.SetKeyName(8, "digitalx.exe_I0065_0409.png");
+            imageList2.Images.SetKeyName(9, "hdwwiz.exe_I05dd_0409.png");
+            imageList2.Images.SetKeyName(10, "setup_wm.exe_I0046_0409.png");
+            // 
             // tabPage5
-            //
-            this.tabPage5.Controls.Add(this.thumbnailViewer1);
-            this.tabPage5.Location = new System.Drawing.Point(4, 34);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tabPage5.Size = new System.Drawing.Size(991, 564);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "DWM";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            //
+            // 
+            tabPage5.Controls.Add(thumbnailViewer1);
+            tabPage5.Location = new System.Drawing.Point(4, 24);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Padding = new Padding(3, 3, 3, 3);
+            tabPage5.Size = new System.Drawing.Size(658, 373);
+            tabPage5.TabIndex = 4;
+            tabPage5.Text = "DWM";
+            tabPage5.UseVisualStyleBackColor = true;
+            // 
             // thumbnailViewer1
-            //
-            this.thumbnailViewer1.Location = new System.Drawing.Point(10, 12);
-            this.thumbnailViewer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.thumbnailViewer1.Name = "thumbnailViewer1";
-            this.thumbnailViewer1.ScaleSmallerThumbnails = false;
-            this.thumbnailViewer1.Size = new System.Drawing.Size(280, 323);
-            this.thumbnailViewer1.TabIndex = 0;
-            this.thumbnailViewer1.Text = "thumbnailViewer1";
-            this.thumbnailViewer1.ThumbnailAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            //
+            // 
+            thumbnailViewer1.Location = new System.Drawing.Point(7, 8);
+            thumbnailViewer1.Name = "thumbnailViewer1";
+            thumbnailViewer1.ScaleSmallerThumbnails = false;
+            thumbnailViewer1.Size = new System.Drawing.Size(187, 215);
+            thumbnailViewer1.TabIndex = 0;
+            thumbnailViewer1.Text = "thumbnailViewer1";
+            thumbnailViewer1.ThumbnailAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // tabPage6
-            //
-            this.tabPage6.Controls.Add(this.labelVDesktopId);
-            this.tabPage6.Controls.Add(this.labelVDesktopCurrent);
-            this.tabPage6.Controls.Add(this.buttonVDesktop);
-            this.tabPage6.Location = new System.Drawing.Point(4, 34);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(991, 564);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Virtual desktops";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            //
+            // 
+            tabPage6.Controls.Add(labelVDesktopId);
+            tabPage6.Controls.Add(labelVDesktopCurrent);
+            tabPage6.Controls.Add(buttonVDesktop);
+            tabPage6.Location = new System.Drawing.Point(4, 24);
+            tabPage6.Margin = new Padding(2, 2, 2, 2);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Padding = new Padding(2, 2, 2, 2);
+            tabPage6.Size = new System.Drawing.Size(658, 373);
+            tabPage6.TabIndex = 5;
+            tabPage6.Text = "Virtual desktops";
+            tabPage6.UseVisualStyleBackColor = true;
+            // 
             // labelVDesktopId
-            //
-            this.labelVDesktopId.Location = new System.Drawing.Point(8, 103);
-            this.labelVDesktopId.Name = "labelVDesktopId";
-            this.labelVDesktopId.Size = new System.Drawing.Size(618, 45);
-            this.labelVDesktopId.TabIndex = 2;
-            this.labelVDesktopId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            //
+            // 
+            labelVDesktopId.Location = new System.Drawing.Point(5, 69);
+            labelVDesktopId.Margin = new Padding(2, 0, 2, 0);
+            labelVDesktopId.Name = "labelVDesktopId";
+            labelVDesktopId.Size = new System.Drawing.Size(412, 30);
+            labelVDesktopId.TabIndex = 2;
+            labelVDesktopId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // labelVDesktopCurrent
-            //
-            this.labelVDesktopCurrent.Location = new System.Drawing.Point(8, 58);
-            this.labelVDesktopCurrent.Name = "labelVDesktopCurrent";
-            this.labelVDesktopCurrent.Size = new System.Drawing.Size(618, 45);
-            this.labelVDesktopCurrent.TabIndex = 1;
-            this.labelVDesktopCurrent.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            //
+            // 
+            labelVDesktopCurrent.Location = new System.Drawing.Point(5, 39);
+            labelVDesktopCurrent.Margin = new Padding(2, 0, 2, 0);
+            labelVDesktopCurrent.Name = "labelVDesktopCurrent";
+            labelVDesktopCurrent.Size = new System.Drawing.Size(412, 30);
+            labelVDesktopCurrent.TabIndex = 1;
+            labelVDesktopCurrent.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // buttonVDesktop
-            //
-            this.buttonVDesktop.Location = new System.Drawing.Point(10, 10);
-            this.buttonVDesktop.Name = "buttonVDesktop";
-            this.buttonVDesktop.Size = new System.Drawing.Size(223, 45);
-            this.buttonVDesktop.TabIndex = 0;
-            this.buttonVDesktop.Text = "Refresh in 5 seconds";
-            this.buttonVDesktop.UseVisualStyleBackColor = true;
-            this.buttonVDesktop.Click += new System.EventHandler(this.buttonVDesktop_Click);
-            //
+            // 
+            buttonVDesktop.Location = new System.Drawing.Point(7, 7);
+            buttonVDesktop.Margin = new Padding(2, 2, 2, 2);
+            buttonVDesktop.Name = "buttonVDesktop";
+            buttonVDesktop.Size = new System.Drawing.Size(149, 30);
+            buttonVDesktop.TabIndex = 0;
+            buttonVDesktop.Text = "Refresh in 5 seconds";
+            buttonVDesktop.UseVisualStyleBackColor = true;
+            buttonVDesktop.Click += buttonVDesktop_Click;
+            // 
             // Main
-            //
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(999, 750);
-            this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.themedLabel2);
-            this.Controls.Add(this.themedLabel1);
-            this.HideTitle = true;
-            this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(971, 629);
-            this.Name = "Main";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "Windows Forms Aero";
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.flowLayoutPanel4.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.flowLayoutPanel3.ResumeLayout(false);
-            this.flowLayoutPanel3.PerformLayout();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage6.ResumeLayout(false);
-            this.ResumeLayout(false);
+            // 
+            AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
+            ClientSize = new System.Drawing.Size(666, 500);
+            Controls.Add(tabControl1);
+            Controls.Add(themedLabel2);
+            Controls.Add(themedLabel1);
+            HideTitle = true;
+            Margin = new Padding(2, 2, 2, 2);
+            MaximizeBox = false;
+            MinimumSize = new System.Drawing.Size(653, 432);
+            Name = "Main";
+            SizeGripStyle = SizeGripStyle.Hide;
+            Text = "Windows Forms Aero";
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            flowLayoutPanel1.ResumeLayout(false);
+            contextMenu1.ResumeLayout(false);
+            tabPage2.ResumeLayout(false);
+            flowLayoutPanel2.ResumeLayout(false);
+            tabPage4.ResumeLayout(false);
+            flowLayoutPanel3.ResumeLayout(false);
+            flowLayoutPanel3.PerformLayout();
+            tabPage5.ResumeLayout(false);
+            tabPage6.ResumeLayout(false);
+            ResumeLayout(false);
 
         }
 
         #endregion
 
-		private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ImageList imageList1;
 		private FireBlade.AeroForms.ThemeLabel themedLabel1;
 		private FireBlade.AeroForms.ThemeLabel themedLabel2;
 		private System.Windows.Forms.TabControl tabControl1;
 		private System.Windows.Forms.TabPage tabPage1;
 		private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
 		private System.Windows.Forms.ContextMenuStrip contextMenu1;
 		private ToolStripMenuItem menuItem1;
 		private ToolStripMenuItem menuItem2;
@@ -1157,17 +886,6 @@ namespace WindowsFormsAeroShowcase {
 		private FireBlade.AeroForms.ComboBox comboBox1;
 		private FireBlade.AeroForms.TreeView treeView1;
 		private FireBlade.AeroForms.ListView listView1;
-		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button11;
-		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button8;
-		private System.Windows.Forms.Button button4;
-		private System.Windows.Forms.Button button5;
-		private System.Windows.Forms.Button button6;
-		private System.Windows.Forms.Button button7;
-		private System.Windows.Forms.Button button10;
-		private System.Windows.Forms.Button button9;
 		private System.Windows.Forms.TabPage tabPage5;
 		private FireBlade.AeroForms.TextBox textBox2;
 		private System.Windows.Forms.ImageList imageList2;
