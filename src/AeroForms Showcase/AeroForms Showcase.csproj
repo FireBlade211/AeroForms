@@ -6,7 +6,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <Configurations>Debug;Release-NET40;Release-NET461</Configurations>
-    <ApplicationManifest>WindowsFormsAeroShowcase.exe.manifest</ApplicationManifest>
+    <ApplicationManifest>AeroForms_Showcase.exe.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <UseVSHostingProcess>false</UseVSHostingProcess>

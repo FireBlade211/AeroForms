@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsAeroShowcase {
+﻿namespace AeroForms_Showcase {
     partial class HorizontalPanelExample
     {
         /// <summary>

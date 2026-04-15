@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using AeroForms_Showcase.Properties;
 using FireBlade.AeroForms;
 
-namespace WindowsFormsAeroShowcase {
+namespace AeroForms_Showcase {
 
     public partial class Main : FireBlade.AeroForms.AeroForm {
 

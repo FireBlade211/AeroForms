@@ -1,6 +1,6 @@
 using System.Windows.Forms;
 
-namespace WindowsFormsAeroShowcase {
+namespace AeroForms_Showcase {
     partial class Main
     {
         /// <summary>

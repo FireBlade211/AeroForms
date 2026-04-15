@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace WindowsFormsAeroShowcase {
+namespace AeroForms_Showcase {
 
     public partial class ControlPanel : FireBlade.AeroForms.AeroForm {
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using FireBlade.AeroForms;
 
-namespace WindowsFormsAeroShowcase {
+namespace AeroForms_Showcase {
 
     public partial class HorizontalPanelExample : AeroForm {
 

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WindowsFormsAeroShowcase {
+namespace AeroForms_Showcase {
 
     public partial class ThumbnailedWindow : Form {
 
