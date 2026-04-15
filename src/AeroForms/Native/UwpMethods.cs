@@ -1,15 +1,7 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace WindowsFormsAero.Native {
+namespace FireBlade.AeroForms.Native {
 
     internal static class UwpMethods {
 

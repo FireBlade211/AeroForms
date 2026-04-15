@@ -1,12 +1,4 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-namespace WindowsFormsAero.Native {
+﻿namespace FireBlade.AeroForms.Native {
 
     internal enum WindowMessage : uint {
         WM_NULL = 0x00,

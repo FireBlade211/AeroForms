@@ -1,15 +1,7 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
+﻿using System;
+using FireBlade.AeroForms.Native;
 
-using System;
-using WindowsFormsAero.Native;
-
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     /// <summary>
     /// Static class providing information about the running OS's version.

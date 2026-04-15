@@ -1,20 +1,12 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using System.Drawing;
 using Microsoft.Win32;
 using System.ComponentModel;
-using WindowsFormsAero.Dwm;
-using WindowsFormsAero.Native;
+using FireBlade.AeroForms.Dwm;
+using FireBlade.AeroForms.Native;
 using System;
 
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     /// <summary>
     /// Base form class that automatically sets its font according

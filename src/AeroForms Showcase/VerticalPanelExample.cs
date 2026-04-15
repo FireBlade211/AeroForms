@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsAeroShowcase {
 
-    public partial class ControlPanel : WindowsFormsAero.AeroForm {
+    public partial class ControlPanel : FireBlade.AeroForms.AeroForm {
 
         public ControlPanel() {
             InitializeComponent();

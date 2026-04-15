@@ -1,14 +1,6 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
+﻿using System.Runtime.InteropServices;
 
-using System.Runtime.InteropServices;
-
-namespace WindowsFormsAero.TaskDialog {
+namespace FireBlade.AeroForms.TaskDialog {
 
     /// <summary>
     /// Custom button shown on a Task Dialog.

@@ -1,17 +1,8 @@
-/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Marco Minerva <marco.minerva@gmail.com>
- *         Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
 using System;
 using System.Drawing;
-using WindowsFormsAero.Native;
+using FireBlade.AeroForms.Native;
 
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     [ToolboxBitmap(typeof(ListView))]
     public class ListView : System.Windows.Forms.ListView {

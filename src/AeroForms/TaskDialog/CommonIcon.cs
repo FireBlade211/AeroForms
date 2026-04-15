@@ -1,12 +1,4 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-namespace WindowsFormsAero.TaskDialog {
+﻿namespace FireBlade.AeroForms.TaskDialog {
 
     /// <summary>
     /// Common Task Dialog icon values.

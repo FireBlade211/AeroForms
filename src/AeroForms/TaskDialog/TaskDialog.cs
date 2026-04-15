@@ -1,18 +1,10 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-using WindowsFormsAero.Native;
+using FireBlade.AeroForms.Native;
 
-namespace WindowsFormsAero.TaskDialog {
+namespace FireBlade.AeroForms.TaskDialog {
 
     /// <summary>
     /// Displays a complex dialog box that can contain text, icons, buttons, command

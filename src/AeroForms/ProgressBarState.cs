@@ -1,12 +1,4 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-namespace WindowsFormsAero {
+﻿namespace FireBlade.AeroForms {
 
     /// <summary>
     /// Represents the state of a progress bar.

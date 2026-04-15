@@ -30,15 +30,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HorizontalPanelExample));
             this.panelTop = new System.Windows.Forms.Panel();
             this.panelDividers = new System.Windows.Forms.Panel();
-            this.labeledDivider4 = new WindowsFormsAero.LabeledDivider();
-            this.labeledDivider3 = new WindowsFormsAero.LabeledDivider();
-            this.labeledDivider2 = new WindowsFormsAero.LabeledDivider();
-            this.labeledDivider1 = new WindowsFormsAero.LabeledDivider();
+            this.labeledDivider4 = new FireBlade.AeroForms.LabeledDivider();
+            this.labeledDivider3 = new FireBlade.AeroForms.LabeledDivider();
+            this.labeledDivider2 = new FireBlade.AeroForms.LabeledDivider();
+            this.labeledDivider1 = new FireBlade.AeroForms.LabeledDivider();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.layout = new System.Windows.Forms.TableLayoutPanel();
-            this.panelBottom = new WindowsFormsAero.HorizontalPanel();
+            this.panelBottom = new FireBlade.AeroForms.HorizontalPanel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -94,7 +94,7 @@
             // labeledDivider3
             // 
             this.labeledDivider3.DividerColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(191)))), ((int)(((byte)(222)))));
-            this.labeledDivider3.DividerPosition = WindowsFormsAero.LabeledDivider.DividerPositions.Below;
+            this.labeledDivider3.DividerPosition = FireBlade.AeroForms.LabeledDivider.DividerPositions.Below;
             this.labeledDivider3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.labeledDivider3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(170)))));
             this.labeledDivider3.Location = new System.Drawing.Point(4, 128);
@@ -300,13 +300,13 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
-        private WindowsFormsAero.LabeledDivider labeledDivider1;
+        private FireBlade.AeroForms.LabeledDivider labeledDivider1;
         private System.Windows.Forms.Panel panelDividers;
-        private WindowsFormsAero.LabeledDivider labeledDivider4;
-        private WindowsFormsAero.LabeledDivider labeledDivider3;
-        private WindowsFormsAero.LabeledDivider labeledDivider2;
+        private FireBlade.AeroForms.LabeledDivider labeledDivider4;
+        private FireBlade.AeroForms.LabeledDivider labeledDivider3;
+        private FireBlade.AeroForms.LabeledDivider labeledDivider2;
         private System.Windows.Forms.TableLayoutPanel layout;
-        private WindowsFormsAero.HorizontalPanel panelBottom;
+        private FireBlade.AeroForms.HorizontalPanel panelBottom;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;

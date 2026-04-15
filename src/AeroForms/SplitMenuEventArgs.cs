@@ -1,16 +1,8 @@
-﻿/*****************************************************
-* WindowsFormsAero
-* https://github.com/LorenzCK/WindowsFormsAero
-* http://windowsformsaero.codeplex.com
-*
-* Author: Nicholas Kwan
-*****************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     /// <summary>
     /// Provides data for the clicking of split buttons and the opening

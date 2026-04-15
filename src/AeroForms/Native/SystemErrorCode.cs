@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsAero.Native {
+namespace FireBlade.AeroForms.Native {
 
     internal enum SystemErrorCode : int {
         Success = 0,

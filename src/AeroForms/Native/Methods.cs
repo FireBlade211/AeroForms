@@ -1,16 +1,7 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Marco Minerva <marco.minerva@gmail.com>
- *         Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-using System;
+﻿using System;
 using System.Runtime.InteropServices;
 
-namespace WindowsFormsAero.Native {
+namespace FireBlade.AeroForms.Native {
 
     internal static class Methods {
 

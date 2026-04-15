@@ -1,15 +1,7 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-using System;
+﻿using System;
 using System.Runtime.InteropServices;
 
-namespace WindowsFormsAero.TaskDialog {
+namespace FireBlade.AeroForms.TaskDialog {
 
     /// <summary>
     /// Stores a Task Dialog message that will be sent to a dialog in order to update its state.

@@ -1,19 +1,10 @@
-/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Marco Minerva <marco.minerva@gmail.com>
- *         Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
 using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
-using WindowsFormsAero.Native;
+using FireBlade.AeroForms.Native;
 
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     [ToolboxBitmap(typeof(ProgressBar))]
     public class ProgressBar : System.Windows.Forms.ProgressBar {

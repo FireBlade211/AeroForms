@@ -1,17 +1,9 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Blake Pell <blakepell@hotmail.com> http://www.blakepell.com
- *****************************************************/
-
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     /// <summary>
     /// A vertical panel which resembles what is used for information and navigation

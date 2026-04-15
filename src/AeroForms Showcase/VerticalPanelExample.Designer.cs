@@ -31,7 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.aeroVerticalPanel1 = new WindowsFormsAero.VerticalPanel();
+            this.aeroVerticalPanel1 = new FireBlade.AeroForms.VerticalPanel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -180,7 +180,7 @@
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
-		private WindowsFormsAero.VerticalPanel aeroVerticalPanel1;
+		private FireBlade.AeroForms.VerticalPanel aeroVerticalPanel1;
 		private System.Windows.Forms.LinkLabel linkLabel3;
 		private System.Windows.Forms.LinkLabel linkLabel2;
 		private System.Windows.Forms.LinkLabel linkLabel1;

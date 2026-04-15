@@ -1,12 +1,4 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-namespace WindowsFormsAero.TaskDialog {
+﻿namespace FireBlade.AeroForms.TaskDialog {
 
     /// <summary>
     /// Results returned by Task Dialogs when closed by the user through a common button.

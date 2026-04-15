@@ -1,18 +1,10 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Nicholas Kwan
- *****************************************************/
-
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
-using WindowsFormsAero.Native;
+using FireBlade.AeroForms.Native;
 
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     /// <summary>
     /// A complex button provided with a secondary split push button

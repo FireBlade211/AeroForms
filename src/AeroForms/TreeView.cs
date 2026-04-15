@@ -1,18 +1,10 @@
-/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Marco Minerva <marco.minerva@gmail.com>
- *****************************************************/
-
 using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
-using WindowsFormsAero.Native;
+using FireBlade.AeroForms.Native;
 
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     [ToolboxBitmap(typeof(TreeView))]
     public class TreeView : System.Windows.Forms.TreeView {

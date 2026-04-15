@@ -10,21 +10,20 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <Configurations>Debug;Release-NET40;Release-NET461</Configurations>
-    <SignAssembly>False</SignAssembly>
-    <AssemblyOriginatorKeyFile>WindowsFormsAero.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>FireBlade.AeroForms</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Release\WindowsFormsAero.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\FireBlade.AeroForms.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release-NET40|AnyCPU' ">
     <Optimize>true</Optimize>
     <OutputPath>bin\Release-NET40\</OutputPath>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Release-NET40\WindowsFormsAero.xml</DocumentationFile>
+    <DocumentationFile>bin\Release-NET40\FireBlade.AeroForms.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" Version="10.0.202" />
@@ -73,9 +72,9 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\Piotr\Projects\Visual Studio Repos\AeroForms\src\WindowsFormsAero\.editorconfig" />
+    <EditorConfigFiles Remove="C:\Users\Piotr\Projects\Visual Studio Repos\AeroForms\src\FireBlade.AeroForms\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Piotr\Projects\Visual Studio Repos\AeroForms\src\WindowsFormsAero\.editorconfig" />
+    <None Include="C:\Users\Piotr\Projects\Visual Studio Repos\AeroForms\src\FireBlade.AeroForms\.editorconfig" />
   </ItemGroup>
 </Project>

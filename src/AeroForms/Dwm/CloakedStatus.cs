@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsAero.Dwm {
+namespace FireBlade.AeroForms.Dwm {
 
     /// <summary>
     /// Describes whether and why a window is cloaked by the DWM.

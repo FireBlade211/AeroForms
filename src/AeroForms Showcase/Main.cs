@@ -3,12 +3,12 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsAero;
-using WindowsFormsAero.TaskDialog;
+using FireBlade.AeroForms;
+using FireBlade.AeroForms.TaskDialog;
 
 namespace WindowsFormsAeroShowcase {
 
-    public partial class Main : WindowsFormsAero.AeroForm {
+    public partial class Main : FireBlade.AeroForms.AeroForm {
 
         private Form _thumbnailedWindow = null;
 
@@ -38,39 +38,39 @@ namespace WindowsFormsAeroShowcase {
         }
 
         private void td_info(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog.Show("Information", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.Information);
+            FireBlade.AeroForms.TaskDialog.TaskDialog.Show("Information", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.Information);
         }
 
         private void ts_warning(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog.Show("Warning", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.Warning);
+            FireBlade.AeroForms.TaskDialog.TaskDialog.Show("Warning", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.Warning);
         }
 
         private void td_error(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog.Show("Error", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.Stop);
+            FireBlade.AeroForms.TaskDialog.TaskDialog.Show("Error", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.Stop);
         }
 
         private void td_shield(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog.Show("Shield", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecurityShield);
+            FireBlade.AeroForms.TaskDialog.TaskDialog.Show("Shield", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecurityShield);
         }
 
         private void td_shielderror(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog.Show("Security error", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecurityError);
+            FireBlade.AeroForms.TaskDialog.TaskDialog.Show("Security error", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecurityError);
         }
 
         private void td_shieldsuccess(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog.Show("Security success", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecuritySuccess);
+            FireBlade.AeroForms.TaskDialog.TaskDialog.Show("Security success", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecuritySuccess);
         }
 
         private void td_blueshield(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog.Show("Blue shield", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecurityShieldBlue);
+            FireBlade.AeroForms.TaskDialog.TaskDialog.Show("Blue shield", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecurityShieldBlue);
         }
 
         private void td_grayshield(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog.Show("Gray shield", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecurityShieldGray);
+            FireBlade.AeroForms.TaskDialog.TaskDialog.Show("Gray shield", "Task Dialog", "Content of the task dialog.", CommonButton.OK, CommonIcon.SecurityShieldGray);
         }
 
         private void td_complex(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog dlg = new("This is the main instruction", "Complex Task Dialog");
+            FireBlade.AeroForms.TaskDialog.TaskDialog dlg = new("This is the main instruction", "Complex Task Dialog");
             dlg.CommonIcon = CommonIcon.SecurityShieldBlue;
             dlg.Content = "You may write long and informative messages, with <a href=\"http://www.google.com\">hyperlinks</a> and linebreaks.\nButtons can also be shaped as Command Link buttons instead of standard buttons. You may also use radio buttons or add a progress bar.";
             dlg.UseCommandLinks = true;
@@ -98,7 +98,7 @@ namespace WindowsFormsAeroShowcase {
             if (e.ButtonID == 9) {
                 e.PreventClosing = true;
 
-                WindowsFormsAero.TaskDialog.TaskDialog newDlg = new WindowsFormsAero.TaskDialog.TaskDialog("Uploading...", "Upload");
+                FireBlade.AeroForms.TaskDialog.TaskDialog newDlg = new FireBlade.AeroForms.TaskDialog.TaskDialog("Uploading...", "Upload");
                 newDlg.ShowProgressBar = true;
                 newDlg.EnableCallbackTimer = true;
                 newDlg.ProgressBarMaxRange = 90;
@@ -108,7 +108,7 @@ namespace WindowsFormsAeroShowcase {
                 newDlg.Footer = "Elapsed time: 0s.";
                 newDlg.FooterCommonIcon = CommonIcon.Information;
 
-                WindowsFormsAero.TaskDialog.TaskDialog dlg = (WindowsFormsAero.TaskDialog.TaskDialog)sender;
+                FireBlade.AeroForms.TaskDialog.TaskDialog dlg = (FireBlade.AeroForms.TaskDialog.TaskDialog)sender;
                 dlg.Navigate(newDlg);
 
                 tickHandler = new EventHandler<TimerEventArgs>(dlg_Tick);
@@ -119,18 +119,18 @@ namespace WindowsFormsAeroShowcase {
         private EventHandler<TimerEventArgs> tickHandler;
         private int cTicks = 0;
         private void dlg_Tick(object sender, TimerEventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog dlg = (WindowsFormsAero.TaskDialog.TaskDialog)sender;
+            FireBlade.AeroForms.TaskDialog.TaskDialog dlg = (FireBlade.AeroForms.TaskDialog.TaskDialog)sender;
 
             cTicks += (int)e.Ticks;
             dlg.Footer = "Elapsed time: " + cTicks / 1000 + "s.";
 
-            if (dlg.ProgressBarState == WindowsFormsAero.ProgressBarState.Normal) {
+            if (dlg.ProgressBarState == FireBlade.AeroForms.ProgressBarState.Normal) {
                 dlg.ProgressBarPosition += (int)e.Ticks / 100;
                 e.ResetCount = true;
             }
 
             if (dlg.ProgressBarPosition >= 90) {
-                WindowsFormsAero.TaskDialog.TaskDialog newDlg = new("Upload complete.", "Upload", "Thank you!");
+                FireBlade.AeroForms.TaskDialog.TaskDialog newDlg = new("Upload complete.", "Upload", "Thank you!");
                 newDlg.CustomButtons = new CustomButton[] {
                     new CustomButton(CommonButtonResult.Cancel, "Close")
                 };
@@ -141,7 +141,7 @@ namespace WindowsFormsAeroShowcase {
         }
 
         private void td_progress(object sender, EventArgs e) {
-            WindowsFormsAero.TaskDialog.TaskDialog dlg = new WindowsFormsAero.TaskDialog.TaskDialog("This dialog displays a progress bar", "Marquee Progress Bar", "The progress bar below is in 'marquee' mode, that is it will not show the exact percentage of the work done, but it will show that some work is being done.", CommonButton.Close);
+            FireBlade.AeroForms.TaskDialog.TaskDialog dlg = new FireBlade.AeroForms.TaskDialog.TaskDialog("This dialog displays a progress bar", "Marquee Progress Bar", "The progress bar below is in 'marquee' mode, that is it will not show the exact percentage of the work done, but it will show that some work is being done.", CommonButton.Close);
             dlg.SetMarqueeProgressBar(true, 30);
 
             dlg.Show(this);

@@ -1,15 +1,7 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-using System;
+﻿using System;
 using System.Runtime.Serialization;
 
-namespace WindowsFormsAero.Dwm {
+namespace FireBlade.AeroForms.Dwm {
 
     [Serializable]
     class DwmCompositionException : Exception {

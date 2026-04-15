@@ -1,14 +1,6 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
+﻿using System;
 
-using System;
-
-namespace WindowsFormsAero.TaskDialog {
+namespace FireBlade.AeroForms.TaskDialog {
 
     public class ClickEventArgs : EventArgs {
 

@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.ComponentModel;
 
-namespace WindowsFormsAero.Dwm {
+namespace FireBlade.AeroForms.Dwm {
 	public class ThumbnailViewer : Control {
 
 		Thumbnail _thumbnail = null;

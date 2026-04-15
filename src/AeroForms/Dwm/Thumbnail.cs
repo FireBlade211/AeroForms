@@ -1,18 +1,10 @@
-﻿/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Lorenz Cuno Klopfenstein <lck@klopfenstein.net>
- *****************************************************/
-
-using System;
+﻿using System;
 using System.Drawing;
 using System.Security.Permissions;
-using WindowsFormsAero.Native;
-using WindowsFormsAero.Resources;
+using FireBlade.AeroForms.Native;
+using FireBlade.AeroForms.Resources;
 
-namespace WindowsFormsAero.Dwm {
+namespace FireBlade.AeroForms.Dwm {
 
     /// <summary>
     /// Handle to a DWM Thumbnail.

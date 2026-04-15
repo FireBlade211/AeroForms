@@ -1,17 +1,9 @@
-/*****************************************************
- * WindowsFormsAero
- * https://github.com/LorenzCK/WindowsFormsAero
- * http://windowsformsaero.codeplex.com
- *
- * Author: Marco Minerva <marco.minerva@gmail.com>
- *****************************************************/
-
 using System;
 using System.ComponentModel;
 using System.Drawing;
-using WindowsFormsAero.Native;
+using FireBlade.AeroForms.Native;
 
-namespace WindowsFormsAero {
+namespace FireBlade.AeroForms {
 
     [ToolboxBitmap(typeof(TextBox))]
     public class TextBox : System.Windows.Forms.TextBox {
