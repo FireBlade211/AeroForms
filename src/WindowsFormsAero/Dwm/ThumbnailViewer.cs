@@ -147,6 +147,7 @@ namespace WindowsFormsAero.Dwm {
 
 		ContentAlignment _alignment = ContentAlignment.MiddleCenter;
 
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
 		public ContentAlignment ThumbnailAlignment {
 			get { return _alignment; }
 			set {
@@ -157,6 +158,7 @@ namespace WindowsFormsAero.Dwm {
 
 		bool _scaleSmallerThumbnails = true;
 
+		[DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
 		public bool ScaleSmallerThumbnails {
 			get { return _scaleSmallerThumbnails; }
 			set {

@@ -75,6 +75,7 @@ namespace WindowsFormsAero {
             }
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public new Padding Padding {
             get { return base.Padding; }
             set {
@@ -91,18 +92,21 @@ namespace WindowsFormsAero {
         }
 
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public new Color BackColor {
             get { return base.BackColor; }
             set { }
         }
 
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public new Image BackgroundImage {
             get { return base.BackgroundImage; }
             set { }
         }
 
         [Browsable(false)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public new ImageLayout BackgroundImageLayout {
             get { return base.BackgroundImageLayout; }
             set { }

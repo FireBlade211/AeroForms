@@ -102,7 +102,7 @@ namespace WindowsFormsAero {
         Category("Behavior"),
         DefaultValue(null)
         ]
-        public ContextMenu SplitMenu { get; set; }
+        public ContextMenuStrip SplitMenu { get; set; }
 
         #endregion Split Context Menu
 

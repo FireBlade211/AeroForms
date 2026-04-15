@@ -43,13 +43,11 @@ namespace WindowsFormsAero.Dwm {
         #region Handle logic
 
         public override bool IsInvalid {
-            [SecurityPermission(SecurityAction.LinkDemand, UnmanagedCode = true)]
             get {
                 return (IsClosed || handle == IntPtr.Zero);
             }
         }
 
-        [SecurityPermission(SecurityAction.LinkDemand, UnmanagedCode = true)]
         protected override bool ReleaseHandle() {
             if(handle == IntPtr.Zero) {
                 return true;

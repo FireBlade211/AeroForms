@@ -65,6 +65,7 @@ namespace WindowsFormsAero {
         [
         Description("The glass margins which are extended inside the client area of the window."),
         Category("Appearance"),
+        DesignerSerializationVisibility(DesignerSerializationVisibility.Visible),
         ]
         public Padding GlassMargins {
             get {

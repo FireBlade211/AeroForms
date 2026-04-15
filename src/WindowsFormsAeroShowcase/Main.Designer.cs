@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace WindowsFormsAeroShowcase {
     partial class Main
     {
@@ -194,10 +196,10 @@ namespace WindowsFormsAeroShowcase {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new WindowsFormsAero.Button();
             this.splitButton2 = new WindowsFormsAero.SplitButton();
-            this.contextMenu1 = new System.Windows.Forms.ContextMenu();
-            this.menuItem3 = new System.Windows.Forms.MenuItem();
-            this.menuItem1 = new System.Windows.Forms.MenuItem();
-            this.menuItem2 = new System.Windows.Forms.MenuItem();
+            this.contextMenu1 = new System.Windows.Forms.ContextMenuStrip();
+            this.menuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.splitButton1 = new WindowsFormsAero.SplitButton();
             this.commandLink1 = new WindowsFormsAero.CommandLink();
             this.commandLink2 = new WindowsFormsAero.CommandLink();
@@ -372,24 +374,22 @@ namespace WindowsFormsAeroShowcase {
             //
             // contextMenu1
             //
-            this.contextMenu1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            // TODO MenuItem is no longer supported. Use ToolStripMenuItem instead. For more details see https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls
+                                                this.contextMenu1.Items.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
             this.menuItem3,
             this.menuItem1,
             this.menuItem2});
             //
             // menuItem3
             //
-            this.menuItem3.Index = 0;
             this.menuItem3.Text = "Automatic";
             //
             // menuItem1
             //
-            this.menuItem1.Index = 1;
             this.menuItem1.Text = "Context";
             //
             // menuItem2
             //
-            this.menuItem2.Index = 2;
             this.menuItem2.Text = "Menu";
             //
             // splitButton1
@@ -1142,10 +1142,10 @@ namespace WindowsFormsAeroShowcase {
 		private System.Windows.Forms.TabPage tabPage1;
 		private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
-		private System.Windows.Forms.ContextMenu contextMenu1;
-		private System.Windows.Forms.MenuItem menuItem1;
-		private System.Windows.Forms.MenuItem menuItem2;
-		private System.Windows.Forms.MenuItem menuItem3;
+		private System.Windows.Forms.ContextMenuStrip contextMenu1;
+		private ToolStripMenuItem menuItem1;
+		private ToolStripMenuItem menuItem2;
+		private ToolStripMenuItem menuItem3;
 		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
 		private WindowsFormsAero.ProgressBar progressBar1;
 		private WindowsFormsAero.ProgressBar progressBar2;

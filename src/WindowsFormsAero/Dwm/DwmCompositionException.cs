@@ -22,10 +22,6 @@ namespace WindowsFormsAero.Dwm {
             : base(m, innerException) {
         }
 
-        public DwmCompositionException(SerializationInfo info, StreamingContext context)
-            : base(info, context) {
-        }
-
     }
 
 }

@@ -100,6 +100,7 @@ namespace WindowsFormsAero {
         /// The color of the divider line.
         /// </summary>
         [Description("The color of the divider line."), Category("Appearance")]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public Color DividerColor {
             get {
                 return this._dividerColor;
