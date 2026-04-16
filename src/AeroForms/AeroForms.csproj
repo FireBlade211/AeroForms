@@ -12,6 +12,18 @@
 	  <Configurations>Debug;Release</Configurations>
 	  <Platforms>AnyCPU</Platforms>
     <RootNamespace>FireBlade.AeroForms</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>AeroForms</Title>
+    <PackageId>FireBlade.AeroForms</PackageId>
+    <Authors>FireBlade</Authors>
+    <Description>AeroForms is a Windows Forms library that provides native controls with many of the modern features introduced with Windows Vista and more recent Windows versions. Many controls—such as buttons, command buttons, and textboxes—support the functional and stylistic features introduced with “Aero”. For instance shield icons, cue banners, and so on.</Description>
+    <Copyright>Copyright © FireBlade 2026</Copyright>
+    <PackageIcon>AeroForms-128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/FireBlade211/AeroForms</RepositoryUrl>
+    <PackageTags>aero;win7;winvista;modern;winforms;dotnet</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 		<UseVSHostingProcess>false</UseVSHostingProcess>
@@ -67,6 +79,18 @@
     <EditorConfigFiles Remove="C:\Users\Piotr\Projects\Visual Studio Repos\AeroForms\src\FireBlade.AeroForms\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\icon\AeroForms-128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="C:\Users\Piotr\Projects\Visual Studio Repos\AeroForms\src\FireBlade.AeroForms\.editorconfig" />
   </ItemGroup>
 </Project>
