@@ -1,4 +1,4 @@
-![AeroForms logo](icon/AeroForms-128.png)
+![AeroForms logo](https://raw.githubusercontent.com/FireBlade211/AeroForms/refs/heads/main/icon/AeroForms-128.png)
 
 # AeroForms
 
@@ -8,7 +8,7 @@
 Many controls—such as buttons, command buttons, and textboxes—support the functional and stylistic features introduced with “Aero”.
 For instance shield icons, cue banners, and so on.
 
-![Screenshot of the AeroForms Showcase app](readme-screenshot.png)
+![Screenshot of the AeroForms Showcase app](https://raw.githubusercontent.com/FireBlade211/AeroForms/refs/heads/main/readme-screenshot.png)
 
 ## Changes from **WindowsFormsAero**
 - Migrated from **.NET Framework 4.6.1** -> **.NET 10.0** for better performance, feature support, and security
