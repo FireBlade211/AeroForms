@@ -1,21 +1,4 @@
 <Solution>
-  <Configurations>
-    <BuildType Name="Debug" />
-    <BuildType Name="Release-NET40" />
-    <BuildType Name="Release-NET461" />
-    <Platform Name="Any CPU" />
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="AeroForms/AeroForms.csproj">
-    <BuildType Solution="Release-NET461|Any CPU" Project="Release" />
-    <BuildType Solution="Release-NET461|x64" Project="Release-NET40" />
-    <BuildType Solution="Release-NET461|x86" Project="Release" />
-  </Project>
-  <Project Path="AeroForms Showcase/AeroForms Showcase.csproj">
-    <BuildType Solution="Release-NET40|*" Project="Release" />
-    <BuildType Solution="Release-NET461|*" Project="Release" />
-    <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="Debug|x86" Project="x86" />
-  </Project>
+  <Project Path="AeroForms Showcase/AeroForms Showcase.csproj" />
+  <Project Path="AeroForms/AeroForms.csproj" />
 </Solution>

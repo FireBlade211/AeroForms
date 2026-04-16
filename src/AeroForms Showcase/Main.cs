@@ -18,7 +18,7 @@ namespace AeroForms_Showcase {
             _thumbnailedWindow = new ThumbnailedWindow();
             _thumbnailedWindow.Show(this);
             _thumbnailedWindow.Location = new Point(Location.X + Size.Width, Location.Y);
-
+            
             thumbnailViewer1.SetThumbnail(_thumbnailedWindow, true);
 
             ResizeRedraw = true;
