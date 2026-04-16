@@ -10,6 +10,11 @@ For instance shield icons, cue banners, and so on.
 
 ![Screenshot of the AeroForms Showcase app](readme-screenshot.png)
 
+## Changes from **WindowsFormsAero**
+- Migrated from **.NET Framework 4.6.1** -> **.NET 10.0** for better performance, feature support, and security
+- Removed **TaskDialog** APIs as they are now included by default in **WinForms**
+- Changed **SplitButton** to use **ContextMenuStrip** because **ContextMenu** is obsolete and throws `NotSupportedException` on constructor
+
 ## Download
 [![NuGet](https://img.shields.io/nuget/v/FireBlade.AeroForms.svg)](https://www.nuget.org/packages/FireBlade.AeroForms)
 
